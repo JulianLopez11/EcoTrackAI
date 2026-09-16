@@ -1,0 +1,9 @@
+{
+  "name": "ecotrack-ai",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "dev": "vite", "server": "tsx server/index.ts", "build": "tsc -b && tsc --noEmit -p tsconfig.server.json && vite build", "lint": "eslint . --max-warnings=0", "test": "tsx --test src/lib/*.test.ts", "preview": "vite preview" },
+  "dependencies": { "@vitejs/plugin-react": "latest", "vite": "latest", "typescript": "latest", "react": "latest", "react-dom": "latest", "lucide-react": "latest", "express": "latest" },
+  "devDependencies": { "eslint": "latest", "@eslint/js": "latest", "typescript-eslint": "latest", "eslint-plugin-react-hooks": "latest", "eslint-plugin-react-refresh": "latest", "@types/react": "latest", "@types/react-dom": "latest", "@types/express": "latest", "@types/node": "latest", "tsx": "latest" }
+}
